@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Imersão Dev 6 | Aula 5</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+
+<body>
+  <div class="container">
+    <h1>Classificação Campeões</h1>
+    <div class="inputs">
+      <input type="text" id="campoNomeCampeao" placeholder="digite o nome do campeão" class="textbox"/>
+      <input type="text" id="campoImagemCampeao" placeholder="Insira a imagem do campeão" class="textbox" />
+    </div>
+      <button onClick="adicionarCampeao()">Adicionar novo Campeão</button>
+    
+    <table style="width:100%">
+      <thead>
+        <tr>
+          <th>Nome</th>
+          <th>Imagem</th>
+          <th>Vitórias</th>
+          <th>Derrotas</th>
+          <th>Abates</th>
+          <th>Mortes</th>
+          <th>Assists</th>
+          <th colspan="5">Ações</th>
+        </tr>
+      </thead>
+      <tbody id="tabelaCampeoes">
+      </tbody>
+    </table>
+    <button class="btn_apagar" onClick="apagarCampeoes()">Apagar todos os jogadores</button>
+  </div>
+</body>
+
+</html>
+

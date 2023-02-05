@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Marcellus+SC&display=swap');
+* {
+  text-align: center;
+}
+
+body {
+  font-family: "Roboto Mono", monospace;
+  min-height: 400px;
+  background-image: url("https://cdn.wallpapersafari.com/96/43/2iV0HB.jpg");
+  background-color: #111111c9;
+  background-blend-mode: darken;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.container {
+  text-align: center;
+  width: 95%;
+  margin: 0 auto;
+  height: 100vh;
+}
+
+.page-title {
+  color: #ffffff;
+  margin: 0 0 5px;
+}
+
+.page-subtitle {
+  color: #ffffff;
+  margin-top: 5px;
+}
+
+.page-logo {
+  width: 200px;
+}
+
+.alura-logo {
+  width: 40px;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+/* INPUTS */
+
+.inputs{
+  margin: 1rem 0;
+}
+
+button {
+  font-family: 'Marcellus SC', serif;
+  font-size: 1rem;
+  font-weight: bold;
+  letter-spacing: 1px;
+  padding: 5px 15px;
+  background: #1e2328;
+  color: #dfcfb3;
+  box-shadow: inset 0 0 2px #000000;
+  border-image: linear-gradient(to bottom, #c8aa6e, #785A28);
+  border-image-slice: 1;
+  border-width: 2px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+button:hover {
+  color: #F0E6D2;
+  border-image: linear-gradient(to bottom, #F0E6D2, #C89B3C);
+  border-image-slice: 1;
+  background: linear-gradient(to bottom, #1e2328, #433d2b);
+  cursor: pointer;
+  transition: border-image .2s, color .2s;
+}
+
+button:active{
+  text-shadow: none;
+  box-shadow: none;
+  color: #cdbe9130
+}
+
+
+
+/* TABELA */
+
+table {
+  border: 2px solid white;
+  border-collapse: collapse;
+  margin: 3rem 0;
+  
+}
+
+h1 {
+  color: white;
+}
+
+th,
+tr,
+td {
+  border: solid 1px white;
+  color: white;
+  padding:0 .5rem;
+}
+
+.champImg{
+  width: 100px;
+  height: 100px;
+}
+
+.tbButton{
+  font-size: .5rem;
+}
+
+
+
